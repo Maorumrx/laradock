@@ -1,3 +1,17 @@
 {
-    "debug": false
+    "debug": true,
+    "host": "0.0.0.0",
+    "port": 6001,
+    "appManager.driver": "array",
+    "appManager.array.apps": [
+        {
+            "id": "myapp-key",
+            "key": "myapp-key",
+            "secret": "myapp-secret",
+            "maxConnections": -1,
+            "enableClientMessages": false,
+            "enabled": true,
+            "webhooks": []
+        }
+    ]
 }
